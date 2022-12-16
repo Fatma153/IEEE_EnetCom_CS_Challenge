@@ -6,28 +6,28 @@ plotter = Plotter()
 actor = Actor()
 datamapper = DataSetMapper()
 plane = Plane(center=(0,0,0),direction=(0,0,1))
-pod_1 = read('/home/lamis_/Downloads/ReproducibilityChallenge/input/M1/RTMDWAK_3L_1M.1_pod_1_model.vtk')
+pod_1 = read('https://github.com/Fatma153/IEEE_EnetCom_CS_Challenge/releases/download/Planetary_Models/RTMDWAK_3L_1M.1_pod_1_model.vtk')
 
 plotter.add_mesh(pod_1 )
 datamapper.SetInputData(pod_1)
 actor.mapper= datamapper
 plotter.add_actor(actor)
 
-true_G =read('/home/lamis_/Downloads/ReproducibilityChallenge/input/M1/RTMDWAK_3L_1M.1_pod_1_trueG.vtk')
+true_G =read('https://github.com/Fatma153/IEEE_EnetCom_CS_Challenge/releases/download/Planetary_Models/RTMDWAK_3L_1M.1_pod_1_trueG.vtk')
 
 plotter.add_mesh(true_G )
 datamapper.SetInputData(true_G)
 actor.mapper= datamapper
 plotter.add_actor(actor)
 
-gravity =read('/home/lamis_/Downloads/ReproducibilityChallenge/input/M1/RTMDWAK_3L_1M.1_pod_1_gravity.vtk')
+gravity =read('https://github.com/Fatma153/IEEE_EnetCom_CS_Challenge/releases/download/Planetary_Models/RTMDWAK_3L_1M.1_pod_1_gravity.vtk')
 
 plotter.add_mesh(gravity)
 datamapper.SetInputData(gravity)
 actor.mapper= datamapper
 plotter.add_actor(actor)
 
-rot = read('/home/lamis_/Downloads/ReproducibilityChallenge/input/M1/RTMDWAK_3L_1M.1_pod_1_Rotation.vtk')
+rot = read('https://github.com/Fatma153/IEEE_EnetCom_CS_Challenge/releases/download/Planetary_Models/RTMDWAK_3L_1M.1_pod_1_Rotation.vtk')
 
 plotter.add_mesh(rot)
 datamapper.SetInputData(rot)
