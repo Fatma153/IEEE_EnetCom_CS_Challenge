@@ -11,8 +11,8 @@ from scipy.io import *
 
 
 
-mat = loadmat('/home/lamis_/Downloads/Cs_challenge/Sph392.mat')
-radial = loadmat('/home/lamis_/Downloads/Cs_challenge/prem3L_noocean.mat')
+mat = loadmat('https://github.com/Fatma153/IEEE_EnetCom_CS_Challenge/releases/download/Planetary_Models/Sph392.mat')
+radial = loadmat('https://github.com/Fatma153/IEEE_EnetCom_CS_Challenge/releases/download/Planetary_Models/prem3L_noocean.mat')
 
 
 print('radial = ', radial)
