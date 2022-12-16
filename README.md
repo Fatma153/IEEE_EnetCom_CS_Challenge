@@ -38,7 +38,7 @@ To make the scripts running all we need is:
 
 To install tensorflow and pickle  library  
 
-To installl vtk library  
+To install vtk library  
 
  
 
