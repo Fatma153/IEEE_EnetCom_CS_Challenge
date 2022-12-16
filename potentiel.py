@@ -15,7 +15,7 @@ plotter_1 = Plotter()
 plotter = Plotter()
 
 
-pod_1 = read('/home/lamis_/Downloads/ReproducibilityChallenge/input/M1/RTMDWAK_3L_1M.1_pod_1_model.vtk')
+pod_1 = read('https://github.com/Fatma153/IEEE_EnetCom_CS_Challenge/releases/download/Planetary_Models/RTMDWAK_3L_1M.1_pod_1_model.vtk')
 # ===> Vp de M1
 plotter.add_mesh(pod_1 )
 
