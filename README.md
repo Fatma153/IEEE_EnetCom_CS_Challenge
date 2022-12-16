@@ -16,7 +16,7 @@ Contents
 
 Mars :  scripts to build 3D mars models 
 
- 
+Main: Main script that trains the CNN model 
 
 Moon : scripts to build 3D moon models  
 
