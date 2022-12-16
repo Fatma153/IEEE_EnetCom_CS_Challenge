@@ -37,9 +37,7 @@ plotter.add_axes()
 
 
 
-from pyvista import examples
 
-#image_path = examples.planets.download_stars_sky_background(load=False)
 
 
 
