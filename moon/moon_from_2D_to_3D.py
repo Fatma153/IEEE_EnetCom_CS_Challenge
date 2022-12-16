@@ -31,7 +31,7 @@ sphere.SetPhiResolution(12)
 
 # Read the image data from a file
 reader = vtk.vtkJPEGReader()
-reader.SetFileName('/home/lamis_/Downloads/Cs_challenge/mars/lroc_color_poles_1k.jpg')
+reader.SetFileName('https://github.com/Fatma153/IEEE_EnetCom_CS_Challenge/releases/download/Planetary_Models/lroc_color_poles_1k.jpg')
 
 # Create texture object
 texture = vtk.vtkTexture()
