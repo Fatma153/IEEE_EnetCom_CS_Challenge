@@ -33,7 +33,7 @@ sphere.SetPhiResolution(12)
 
 # Read the image data from a file
 reader = vtk.vtkJPEGReader()
-reader.SetFileName('/home/lamis_/Downloads/Cs_challenge/mars/marscyl1l (copy).jpg')
+reader.SetFileName('https://github.com/Fatma153/IEEE_EnetCom_CS_Challenge/releases/download/Planetary_Models/marscyl1l.copy.jpg')
 
 # Create texture object
 texture = vtk.vtkTexture()
